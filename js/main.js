@@ -10,7 +10,21 @@ function slideInNewDiv(){
 };
 
 
+function slickReInit() {
+	$('.slider').hide();
+    setTimeout(function(){ 
+		console.log('slick redinit');
+		$('.slider').slick('unslick');
+		$('.slider').slick();
+		$('.slider').fadeIn();	
+    }, 500);
+}
+
 
 $( document ).ready(function() {
 	$('.links span').on('click', slideInNewDiv);
+  	$('.slider').slick();
 });
+
+
+$('.card[data-toggle="modal"]').on('click', slickReInit);
