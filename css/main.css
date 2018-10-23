@@ -23,6 +23,14 @@ body{
 }
 
 
+a{
+  color:inherit!important;
+}
+
+a:hover{
+  text-decoration: none!important;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -338,8 +346,8 @@ textarea {
 
 .card-title{
     font-size: 27px;
-    letter-spacing: 4px;  
-    text-align: center; 
+    letter-spacing: 4px;
+    text-align: center;
 }
 
 .card-text.answer{
@@ -358,7 +366,7 @@ textarea {
 }
 
 
-.card{  
+.card{
     border: none!important;
     height: 250px;
     z-index: 2;
@@ -435,6 +443,53 @@ body .slick-prev:before, body .slick-next:before{
 .slick-slide img{
     margin: 0 auto;
 }
+
+.fa-chevron-left{
+  float:left;
+}
+
+.blurb{
+  color:white;
+}
+
+.blurb  h3{
+  margin-top: 30px;
+}
+
+.blurb  h3:hover{
+  cursor: pointer;
+}
+
+.skill-list{
+  padding-left: 0;
+}
+.skill-list span i {
+  margin-right: 10px;
+}
+
+.blurb .content{
+  display:none;
+}
+
+.blurb .content p{
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.header-content-container.blurb{
+  display:inherit!important;
+  margin-top: 119px;
+}
+
+.header-content-container .contact{
+  color:white;
+  margin-top: 20px;
+}
+
+.header-content-container .contact i{
+  font-size: 10px;
+  vertical-align: middle;
+}
 /*
 .card-img-top{
     width:300px;
@@ -442,6 +497,5 @@ body .slick-prev:before, body .slick-next:before{
 }*/
 
 
-@font-face { font-family: BebasNeue; src: url('../fonts/BebasNeue.otf'); } 
-@font-face { font-family: BebasNeue; src: url('../fonts/BebasNeue.otf'); } 
-
+@font-face { font-family: BebasNeue; src: url('../fonts/BebasNeue.otf'); }
+@font-face { font-family: BebasNeue; src: url('../fonts/BebasNeue.otf'); }
